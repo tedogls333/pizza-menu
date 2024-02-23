@@ -54,8 +54,8 @@ function Pizza() {
   return (
     <>
       <h1>Pizza Prosciutto</h1>
-      <p>Tomato, mozarella, ham, aragula, and burrata cheese</p>
       <img src="pizzas/prosciutto.jpg" alt="prosciutto pizza" />
+      <p>Tomato, mozarella, ham, aragula, and burrata cheese</p>
     </>
   );
 }
@@ -63,5 +63,3 @@ function Pizza() {
 const root = ReactDom.createRoot(document.getElementById('root'));
 
 root.render(<App />);
-
-console.log('tedo');
